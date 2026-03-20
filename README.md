@@ -24,7 +24,7 @@ DQuotes is a simple and attractive web-based application that displays motivatio
 
 ## 📸 Preview
 
-![App Screenshot](<Screenshot 2026-03-19 185216.png />)
+![App Screenshot](<Screenshot.png />)
 
 ---
 
