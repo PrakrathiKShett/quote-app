@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background like your reference */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff0080, #7928ca);
+}
+
+/* Phone UI */
+.phone {
+    width: 300px;
+    height: 550px;
+    background: #f5f5f5;
+    border-radius: 35px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header gradient */
+.header {
+    background: linear-gradient(90deg, #ff00cc, #3333ff);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Quote area */
+.quote-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ff0080, #ff4da6);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
